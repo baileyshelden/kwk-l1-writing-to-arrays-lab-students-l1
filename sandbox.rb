@@ -1,8 +1,8 @@
-def name_length(x)
-x = gets.chomp 
-puts "How long is your name?"
-x = gets.chomp.to_length
-if name_length =< 3
+def name_length()
+
+puts "What is your name?"
+name_length = gets.chomp.length
+if name_length <= 3
   puts "your name is shoooooort"
 elsif name_length >= 7
 puts "you, have an average name."
@@ -11,4 +11,4 @@ else
 end 
 end 
 
-name_length(bailey)
+name_length()
