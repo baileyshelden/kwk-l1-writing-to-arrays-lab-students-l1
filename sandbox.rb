@@ -8,7 +8,7 @@ if name_length <= 3
   puts "your name is shoooooort"
 elsif name_length >= 7
 puts "you, have an average name."
-else 
+else name_length > 7
   puts "your name is lonnnnnng as heck."
 end 
 end 
