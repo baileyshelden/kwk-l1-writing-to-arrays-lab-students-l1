@@ -13,4 +13,4 @@ else
 end 
 end 
 
-name_length()
+name_length(name_length_random)
