@@ -7,6 +7,7 @@ if name_length =< 3
 elsif name_length =< 7
 puts "you, have a average name."
 else 
+  puts "your name is lonnnnnng as heck."
 end 
 end 
 
