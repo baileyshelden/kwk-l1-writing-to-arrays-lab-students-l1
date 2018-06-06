@@ -6,9 +6,9 @@ def name_length(name_length)
   
 if name_length <= 3
   puts "your name is shoooooort"
-elsif name_length >= 7
+elsif name_length <= 7
 puts "you, have an average name."
-else name_length > 7
+else 
   puts "your name is lonnnnnng as heck."
 end 
 end 
