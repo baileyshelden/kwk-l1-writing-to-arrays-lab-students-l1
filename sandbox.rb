@@ -11,3 +11,4 @@ else
 end 
 end 
 
+name_length(bailey)
