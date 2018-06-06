@@ -1,7 +1,9 @@
-def name_length()
+
 
 puts "What is your name?"
-name_length = gets.chomp.length
+name_length_random = gets.chomp.length
+def name_length(name_length)
+  
 if name_length <= 3
   puts "your name is shoooooort"
 elsif name_length >= 7
