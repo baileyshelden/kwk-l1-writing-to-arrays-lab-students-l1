@@ -12,7 +12,7 @@ change_rainbow_colors[2]= "light_yellow"
 return change_rainbow_colors
 end
 
-
+puts change_rainbow_colors
 
 
 
